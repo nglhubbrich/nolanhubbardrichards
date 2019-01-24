@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Nolan Hubbard-Richards, baby!</title>
+</head>
+
+<body>
+  <nav>
+    <ul class="links sub-header">
+      <li>
+        <a href="mailto:nglhubbardrichards@gmail.com">Shoot me an email</a>
+      </li>
+      <li>306-531-3053</li>
+      <li><a href="assets/NolanHubbardResume.pdf">Check out my Resume</a></li>
+    </ul>
+  </nav>
+  <header>
+    <div class="main-header">
+      <h1 class="main-name">Nolan<br />Hubbard-Richards</h1>
+      <div class="sub-header-container">
+        <img class="avatar sub-header" src="assets/myAvatar.png" alt="superSickAvatar" />
+        <div class="spinning-border"></div>
+      </div>
+
+      <hr class="separator" />
+    </div>
+  </header>
+
+  <div class="about-section">
+    <h1 class="about-title">A little about me</h1>
+    <p>
+      Hey! It's a pleasure to make your virtual acquaintance! Allow me to
+      introduce myself: My name is (in case you didn't catch my super
+      subtle header) Nolan Hubbard-Richards. I work for Sarcan Recycling as an
+      assistant supervisor at the Regina Vic East Depot, and have for the past
+      ten years. With my deep passion for the environment, it has been a match
+      made in heaven. Sarcan and I go together like Habanero peppers and
+      strawberry jam (seriously. try it.)<span id="dots">...</span></p></span><span id="more">
+      <p>On the personal side, I live in Regina, Saskatchewan with my wife
+        where I spend my spare time walking our 5 dogs (yes, you read that
+        right: FIVE dogs. But 3 of them are chihuahuas, so they only count as
+        1) or 'arting' around. I play guitar, paint and draw, make model props from
+        my favourite movies, coding and programming, or building projects with
+        arduinos and raspberry pi. I think the term thrown around these days
+        would be 'maker'. I like to make the things that I see in my
+        imagination real. Be it a picture that I want to look at, a song I
+        want to hear, or a homemade gadget to automate my home. If I create it
+        in my mind, I want to create it in my hands. You can usually find me
+        hunkered over my desk, working out the plans for my next project.</p>
+      <p>
+        I like to consider myself a lifelong learner, as well. I love learning
+        new things or diving into an area of study that I haven't tried
+        before. Often, if in the process of creating the master plans for my
+        next project I find that I am not sure how to do something, I will try
+        as best I can to learn everything I can about that something.</p>
+      <p>But, that's enough of me gassing on about myself. Have a look around and I hope you like what you see!</p>
+      <p>- ngl.</p>
+    </span>
+
+
+    <button onclick="showMoreLess()" id="showMoreLessBtn">
+      Show Me More!
+    </button>
+  </div>
+
+  <div class="projects-sections">
+    <h1 class="projects-title">A few things I have done</h1>
+
+    <div class="projects-containers" id="gml-section">
+      <div id="gmlWrapper"><img class="project-bubble" src="assets/GMLMainLogo.png" alt="GML Logo" height="400px" id="gmlLogo" /></div>
+      <h2 class="projects-subtitle">Logo Design</h2>
+      <p class="projects-description">
+        A local 'maker' was in need of a logo set for his upcoming youtube
+        channel: Golden Moose Laboratory. I had a blast creating these for
+        him!
+      </p>
+      <a href="gml.html" class="projectDetailsBtn">
+        See more about GML and the creation of the logo
+      </a>
+    </div>
+
+    <div class="projects-containers" id="dhart-section">
+      <img class="project-bubble" id="debbieArt" src="assets/DebbieHubbardArt.png" alt="Debbie Hubbard Art" />
+      <h2 class="projects-subtitle">Website and UX Development</h2>
+      <p class="projects-description">
+        Debbie Hubbard is an artist with some serious talent and needed a way
+        to show off her art to the world. I was more than happy to oblige.
+      </p>
+      <a href="debbiehubbardart.html" class="projectDetailsBtn">
+        See some details about her website
+      </a>
+    </div>
+  </div>
+
+  <div class="projects-containers" id="aliss-section">
+    <img class="project-bubble" src="assets/alissMainLogo.png" alt="Aliss Logo" />
+    <h2 class="projects-subtitle">Team Lead and Head Designer</h2>
+    <p class="projects-description">
+      I had the pleasure of leading a thrown together team of Hackers and
+      Designers by assigning roles and goals, sharpening our projects'
+      vision, as well as heading up the design of our branding, taking
+      'Project Aliss' to the finals at the 24hr Startup Competition.
+    </p>
+    <a href="Aliss.html" class="projectDetailsBtn">
+      Check out more about Aliss
+    </a>
+  </div>
+
+  <div class="upcoming-projects-sections">
+    <h1 class="upcoming-projects-title">Something I am working on</h1>
+    <div class="projects-containers" id="ess-section">
+      <img class="project-bubble" id="ESS" src="assets/ESSMainLogo.png" alt="ESS Main Logo" />
+      <!-- <img
+            class="project-bubble"
+            id="ESS-page"
+            src="assets/ESSfullPage.png"
+            alt="ESS Main Logo"
+          /> -->
+      <h2 class="projects-subtitle">App Development and Design</h2>
+      <p class="projects-description">
+        Everyone is on their phones these days, and they have come to expect their lifestyles to be reflected in these
+        devices and the apps on them. Inspired by Sarcan School, 'ESS: Earth Saver Stats' is an app that attempts to
+        reflect the lifestyles of the more 'Earth Friendly' among us.
+      </p>
+      <a href="ess.html" class="projectDetailsBtn">
+        See more info about ESS
+      </a>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

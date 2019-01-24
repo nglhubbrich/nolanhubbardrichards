@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  height: 100vh;
+  margin: 0;
+  background-image: radial-gradient(rgb(199, 230, 233) 40%, rgb(130, 199, 206), #40C0CB);
+}
+
+nav {
+  height: 10vh;
+  width: 100%;
+  text-align: center;
+}
+
+br {
+  margin: 8px;
+}
+
+.links {
+  margin: 10px auto;
+  position: relative;
+  color: rgb(14, 84, 90);
+  font-size: 1.2rem;
+  list-style: none;
+}
+
+.links li {
+  float: left;
+  padding: 0 45px;
+  font-family: 'lobster', cursive;
+  font-size: 1.2rem;
+  color: aliceblue;
+  text-shadow: -1px 1px 1px rgb(14, 84, 90);
+}
+
+.links li a {
+  padding: 25px;
+  text-decoration: none;
+  font-family: 'lobster', cursive;
+  font-size: 1.2rem;
+  color: aliceblue;
+  text-shadow: -1px 1px 1px rgb(14, 84, 90);
+}
+
+.links a:hover {
+  color: rgb(14, 84, 90);
+  font-size: 1.4rem;
+  text-shadow: -4px 4px 4px rgb(199, 230, 233);
+}
+
+header {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.main-name {
+  margin: 0px auto 0px;
+  padding: 5px;
+  font-family: 'lobster', cursive;
+  font-size: 8rem;
+  color: aliceblue;
+  text-align: center;
+  perspective: 9999px;
+  text-shadow: -1px 1px 1px rgb(48, 144, 153), -2px 2px 1px rgb(48, 144, 153), -3px 3px 1px rgb(48, 144, 153), -4px 4px 1px rgb(48, 144, 153), -5px 5px 1px rgb(48, 144, 153), -6px 6px 2px rgb(48, 144, 153), -7px 7px 2px rgb(48, 144, 153), -8px 8px 2px rgb(48, 144, 153), -9px 9px 2px rgb(48, 144, 153), -10px 10px 4px rgb(48, 144, 153), -11px 11px 4px rgb(48, 144, 153);
+}
+
+.sub-header-container {
+  position: relative;
+  width: 50%;
+  margin: 0 auto;
+  height: 20vh;
+  font-size: 0;
+  text-align: center;
+}
+
+.sub-header {
+  display: inline-block;
+}
+
+.avatar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 8px auto;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 0px 4px rgba(64, 191, 203, 1);
+  -moz-box-shadow: 0px 0px 0px 4px rgba(64, 191, 203, 1);
+  box-shadow: 0px 0px 0px 4px rgba(64, 191, 203, 1);
+}
+
+.spinning-border {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border: rgb(48, 144, 153) 8px dashed;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  animation: avatar-spin 5s infinite;
+}
+
+.separator {
+  margin: 0 auto;
+  color: #40C0CB;
+  border: #40C0CB 3px solid;
+}
+
+.about-section {
+  width: 80%;
+  margin: 12vh auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: 1.7rem;
+  color: rgb(14, 84, 90);
+}
+
+.about-title {
+  font-family: 'lobster', cursive;
+  font-size: 4rem;
+  color: aliceblue;
+  text-align: center;
+  text-shadow: -1px 1px 1px rgb(48, 144, 153), -2px 2px 1px rgb(48, 144, 153), -3px 3px 1px rgb(48, 144, 153), -4px 4px 1px rgb(48, 144, 153);
+}
+
+#more {
+  display: none;
+}
+
+#showMoreLessBtn {
+  padding: 0;
+  margin: 0 auto;
+  display: block;
+  border: none;
+  background: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  color: rgb(14, 84, 90);
+  text-align: center;
+}
+
+#showMoreLessBtn:hover {
+  font-size: 1.6rem;
+}
+
+.projects-title,
+.upcoming-projects-title {
+  font-family: 'lobster', cursive;
+  font-size: 4rem;
+  color: aliceblue;
+  text-align: center;
+  text-shadow: -1px 1px 1px rgb(48, 144, 153), -2px 2px 1px rgb(48, 144, 153), -3px 3px 1px rgb(48, 144, 153), -4px 4px 1px rgb(48, 144, 153);
+}
+
+.projects-containers {
+  width: 60%;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(14, 84, 90);
+  text-align: center;
+  align-items: center;
+  margin: 60px auto;
+}
+
+.project-bubble {
+  height: 250px;
+  width: auto;
+}
+
+#gmlWrapper {
+  margin: 0 auto;
+  height: 250px;
+  width: 250px;
+  line-height: 250px;
+  background-color: #2C2B2F;
+  border: #40C0CB 3px solid;
+  border-radius: 50%;
+}
+
+#gmlLogo {
+  vertical-align: middle;
+  height: 150px;
+  width: auto;
+}
+
+.projects-subtitle {
+  margin: 0;
+}
+
+.projectDetailsBtn {
+  padding: 0;
+  margin: 0 auto;
+  display: block;
+  border: none;
+  background: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  color: rgb(14, 84, 90);
+  text-align: center;
+  text-decoration: none;
+}
+
+.projectDetailsBtn:hover {
+  font-size: 1.6rem;
+}
+
+#debbieArt {
+  border-radius: 50%;
+  border: #40C0CB 3px solid;
+  margin-bottom: 3px;
+}
+
+#ESS {
+  height: 250px;
+  width: 250px;
+  border: #40C0CB 3px solid;
+  border-radius: 50%;
+}
+
+#ESS-page {
+  height: 600px;
+  width: auto;
+}
+
+.backBtn {
+  position: fixed;
+  margin: 20px;
+}
+
+.fa-arrow-circle-left {
+  color: #2C2B2F;
+}
+
+.aliss-container {
+  width: 80%;
+  margin: 10vh auto;
+  padding: 0;
+}
+
+.aliss-header {
+  display: flex;
+}
+
+.ess-header {
+  display: flex;
+}
+
+#aliss-page-logo {
+  height: 250px;
+  width: 250px;
+}
+
+#gml-page-logo {
+  width: 300px;
+  height: auto;
+}
+
+#ess-page-logo {
+  width: 250px;
+  height: auto;
+}
+
+.aliss-header-narrow {
+  height: 250px;
+  width: 250px;
+  margin: 1em;
+}
+
+.ess-header-narrow {
+  width: 250px;
+  margin: 1em;
+}
+
+.aliss-header-wide {
+  flex: 1;
+  position: relative;
+}
+
+.ess-header-wide {
+  flex: 1;
+  position: relative;
+}
+
+.gml-header-wide {
+  flex: 1;
+  position: relative;
+  left: 30px;
+}
+
+#aliss-page-quote {
+  position: relative;
+  text-align: center;
+  color: rgb(14, 84, 90);
+  font-size: 1.4rem;
+  font-style: italic;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#gml-page-quote {
+  position: relative;
+  text-align: center;
+  color: rgb(14, 84, 90);
+  font-size: 1rem;
+  font-style: italic;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#dhart-page-quote {
+  position: relative;
+  text-align: center;
+  color: rgb(14, 84, 90);
+  font-size: 1.4rem;
+  font-style: italic;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#dhart-page-logo {
+  height: 250px;
+  width: auto;
+  border-radius: 50%;
+  border: #40C0CB 3px solid;
+  margin-bottom: 3px;
+}
+
+.image-section {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+
+#disclaimer {
+  text-align: center;
+  color: rgb(14, 84, 90);
+  font-style: italic;
+  font-size: .8rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.dhart-display {
+  align-content: center;
+}
+
+.dhart-display img {
+  margin: 5px;
+  height: auto;
+  width: 300px;
+}
+
+.project-description {
+  width: 75%;
+  margin: 0 auto;
+  color: rgb(14, 84, 90);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+
+
+@keyframes avatar-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
